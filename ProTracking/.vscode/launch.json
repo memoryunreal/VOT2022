@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: starkmm",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/lz/anaconda3/envs/starkmm/bin/vot",
+            "console": "integratedTerminal",
+            "args":["evaluate", "--workspace", "/ssd3/lz/MM2022/MM2022prompt/votworksapce/depthtrack/blend_0.005_depth5000_Gray", "stark"],
+            "justMyCode": false
+        },
+        {
+            "name": "Python: eventmm",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/lz/anaconda3/envs/starkmm/bin/vot",
+            "console": "integratedTerminal",
+            "args":["evaluate", "--workspace", "/ssd3/lz/MM2022/MM2022prompt/votworksapce/visevent/blend0.1", "stark"],
+            "justMyCode": false
+        }
+    ]
+}

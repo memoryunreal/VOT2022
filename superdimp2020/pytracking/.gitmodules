@@ -1,0 +1,4 @@
+[submodule "VOT/vot-toolkit"]
+	path = VOT/vot-toolkit
+	url = git@gitlab.ethz.ch:cvl-tracking-team/vot-toolkit.git
+	branch = vot2019-local
