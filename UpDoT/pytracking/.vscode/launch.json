@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: ax_tracker",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/gaoshang/anaconda3/envs/pytracking/bin/vot",
+            "console": "integratedTerminal",
+            "args": ["evaluate", "--workspace", "/ssd2/gaoshang/votd2022/", "dimp_ax"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: current file",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "/home/gaoshang/pytracking"
+            },
+            "args": [],
+            "justMyCode": false
+        }
+    ]
+}
