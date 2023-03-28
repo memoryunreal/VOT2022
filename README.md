@@ -56,7 +56,7 @@ vot analysis --workspace ./ ProMixTrack
 
 
 ## Contact
-Zhe Li:liz8@mail.sustech.edu.cn
+Zhe Li:liz2022@mail.sustech.edu.cn
 
 ## Model Zoo and raw results
 The trained models and the raw tracking results are provided in the [[Models and Raw results]](https://drive.google.com/drive/folders/1wyeIs3ytYkmAtTXoVlLMkJ4aSTq5CBHq?usp=sharing) (Google Driver) or
